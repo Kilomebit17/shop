@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 100%;
 }
 input, button {
-    font-family: 'Lobster', cursive;
+    font-family:'Open sans' sans-serif;
 }
 p {
     margin: 0;
@@ -163,3 +163,4 @@ body {
 .swiper__content button:hover {
     transform: scale(1.08);
 }
+/* clothes */
