@@ -144,10 +144,11 @@ body {
     line-height: 1.6;
     margin:0 0 1.3rem;
 }
-.swiper__title {
+.swiper__title{
     font-size: 4rem;
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
+    color: #fff;
 }
 .swiper__content button {
     border: 2px solid #fff;
@@ -164,3 +165,56 @@ body {
     transform: scale(1.08);
 }
 /* clothes */
+.carousel__block {
+    display: flex;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.carousel__block-cb1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.carousel__block > img {
+    padding:25px 50px;
+}
+.carousel__itms > h1 {
+    color: #afafaf;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.carousel__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.carousel__block-img {
+    padding-right: 10px;
+}
+#carousel-control-prev-icon {
+    background: url("../img/back.svg") center / contain no-repeat;
+    height: 100px;
+    width: 80px;
+}
+.carusel__container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 182px;
+}
+#carousel-control-next-icon {
+    background: url("../img/back.svg") center / contain no-repeat;
+    height: 100px;
+    width: 80px;
+    transform: rotateZ(180deg);
+}
+/* featured */
+.featured-color {
+    background-color:#3cc4b3;
+}
+.featured__title {
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    padding:3px 0 0 57px;
+}
