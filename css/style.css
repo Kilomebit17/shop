@@ -216,5 +216,54 @@ body {
     color: #fff;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
-    padding:3px 0 0 57px;
+    padding:3px 0 0 0;
+}
+.featured__inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(255px,320px));
+    justify-content: center;
+    justify-items: center;
+}
+/*  */
+.green-line {
+    height: 6px;
+    background-color: limegreen;
+    width: 255px;
+}
+/*  */
+.featured__itm {
+    box-shadow: 0 0 10px silver;
+    margin:20px 0;
+    padding:20px 40px;
+    border-radius:5px;
+    border: 1px solid silver;
+    transition:transform .1s linear;
+}
+.featured__itm:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+    box-shadow: 0 4px 1px #3cc395;
+}
+.featured__itm h1 {
+    color:#bababa;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+}
+.featured__itm img {
+    padding:10px 0;
+}
+.featured__itm, img, .featured__block {
+    object-fit: contain;
+    text-align: center;
+}
+.featured__block {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.featured__block span {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    color: #bababa;
+    margin-right: 1rem;
 }
