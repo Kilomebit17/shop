@@ -110,6 +110,9 @@ body {
     left:-1.4rem;
     top: 0;
 }
+.nav__link:hover {
+    color: #fff;
+}
 .slider {
  background-color: #3ec8b9;   
 }
