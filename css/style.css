@@ -122,7 +122,7 @@ body {
     padding:2rem 0 3rem;
 }
 .swiper__content {
-    padding:0 7rem;
+    padding:0 3rem;
     display: flex;
     justify-content: space-between;
     color: #fff;
@@ -140,7 +140,7 @@ body {
     margin-left: .5rem;
 }
 
-.swiper__rightSide p {
+.swiper__paragraph {
     width: 400px;
     font-size: 1.1rem;
     font-family: 'Open Sans', sans-serif;
@@ -168,6 +168,11 @@ body {
     transform: scale(1.08);
 }
 /* clothes */
+.carousel__block-cb3 {
+    display: flex;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}
 .carousel__block {
     display: flex;
     align-items: center;
@@ -177,9 +182,6 @@ body {
     display: flex;
     align-items: center;
     font-family: 'Bebas Neue', cursive;
-}
-.carousel__block > img {
-    padding:25px 50px;
 }
 .carousel__itms > h1 {
     color: #afafaf;
@@ -269,4 +271,33 @@ body {
     font-size: 2rem;
     color: #bababa;
     margin-right: 1rem;
+}
+
+@media (max-width:1024px) {
+    .carousel__block-cb3 {
+        display: none;
+    }
+    .carousel__flex {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media (max-width:999px) {
+    .nav__link+.nav__link::before {
+        display: none;
+    }
+}
+@media (max-width:768px) {
+    .nav__link+.nav__link::before {
+        display: none;
+    }
+    .swiper__title{
+        font-size: 3rem;
+    }
+    .swiper__paragraph {
+        font-size: 16px;
+    }
+    .swiper__rightSide {
+        padding-left:20px;
+    }
 }
